@@ -52,7 +52,7 @@ class PaperAnalyzer:
                 if not self.is_complete(states):
                     analysis_complete = False
                     break
-            # sleep for 2 seconds before checking again
+            # sleep for 5 seconds before checking again
             time.sleep(5)
 
     @staticmethod
